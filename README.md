@@ -6,7 +6,8 @@ For folders I used a storage account in Azure which had been mounted to Databric
 Simulated on prem server by Azure SQL Server instance-
 
 - Task 1a:
-I would use the Databricks notebook in an ADF pipeline and triggered that by storage event trigger.
+I would use the Databricks notebook in an ADF pipeline and triggered that by storage event trigger. 
+Added another Databricks notebook where I represent the Delta Live Table feature of Databricks. Using by that I could create a pipeline in Databricks and stream the file path, look for updated files. (Newer version of Databricks is needed for that feature)
 
 - Task 1b:
 I would run the Databricks notebook by manually/create a job for the notebook in Databricks/Trigger now in ADF.
